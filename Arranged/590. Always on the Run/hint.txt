@@ -1,0 +1,16 @@
+    for i = 1 to n // n total places
+        for d = 1 to day // day total days
+            val[i][d] = inf
+
+    set val[1][0] = 0, because in 0-th day she is in the 1st place. And the cost is zero.
+
+    1. enque(1, 0)
+    2. u = deque()
+    3. for i = 1 to n and i is different from u.n
+    4.     v.n = i and v.day = u.day+1
+    5.     if(there is a flight in the u.day-th day from u.n to v.n)
+    6.         if(val[v.n][v.day] > val[u.n][u.day] + flight cost)
+    7.             update val[v.n][v.day] and enque(v)
+    8. if the queue is not empty then goto step 2
+
+    then the val[n][day] will contain the minimum cost.

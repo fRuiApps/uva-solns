@@ -1,0 +1,15 @@
+ Faster Algorithm
+
+There's also an O(nlogn) solution based on some observations. Let Ai,j be the smallest possible tail out of all 
+increasing subsequences of length j using elements a_1, a_2, a_3, \ldots, a_i.
+
+Observe that, for any particular i, A_{i,1} < A_{i,2} < \ldots < A_{i,j}. This suggests that if we want the 
+longest subsequence that ends with ai + 1, we only need to look for a j such that Ai,j < ai + 1 < = Ai,j + 1 
+and the length will be j + 1.
+
+Notice that in this case, Ai + 1,j + 1 will be equal to ai + 1, and all Ai + 1,k will be equal to Ai,k for k \ne j + 1.
+
+Furthermore, there is at most one difference between the set Ai and the set Ai + 1, which is caused by this search.
+
+Since A is always ordered in increasing order, and the operation does not change this ordering, we can do a 
+binary search for every single a_1, a_2, \ldots, a_n. 

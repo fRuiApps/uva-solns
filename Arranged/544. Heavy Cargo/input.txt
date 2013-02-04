@@ -1,0 +1,20 @@
+4 3
+Karlsruhe Stuttgart 100
+Stuttgart Ulm 80
+Ulm Muenchen 120
+Karlsruhe Muenchen
+5 5
+Karlsruhe Stuttgart 100
+Stuttgart Ulm 80
+Ulm Muenchen 120
+Karlsruhe Hamburg 220
+Hamburg Muenchen 170
+Muenchen Karlsruhe
+5 5
+Asansol Durgapur 100
+Kolkata Durgapur 200
+Kolkata Ranchi 80
+Ranchi Jamshedpur 50
+Kolkata Jamshedpur 250
+Asansol Jamshedpur
+0 0

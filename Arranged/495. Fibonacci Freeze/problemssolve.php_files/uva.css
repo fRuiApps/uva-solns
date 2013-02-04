@@ -1,0 +1,170 @@
+body,td,th {
+  font-family: Verdana, Arial, Helvetica, ms-serif;
+  font-size: 12px;
+}
+
+body {
+  background: url(blueback.jpg) no-repeat #141f3e;
+  margin: 0px 15px 0px 190px;
+  padding: 10px 5px 0px 0px;
+}
+
+.menuitem {
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+}
+
+#main {
+  position: absolute;
+  top:100px;
+  left: 0px;
+  width: 100%;
+}
+
+#menu {
+  position: absolute;
+  left: 10px;
+  top: 150px;
+  width: 160px;
+}
+
+.content {
+  border: 1px solid white;
+  padding: 5px;
+  margin-bottom: 20px;
+  background: #acb8db;
+}
+
+h1, .overskrift {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 14px;
+  font-style: italic;
+}
+
+a {
+  color: #141f3e;
+}
+
+hr {
+  display: none;
+}
+
+.article-hr {
+  width: 100%;
+  height: 20px;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.calendar-weekend {
+  background-color: #141f3e;
+  border: white 1px solid;
+  color: white;
+}
+
+.calendar-weekday {
+  border: white 1px solid;
+}
+
+.calendar-today {
+  background-color: #2f65ff;
+  border: white 1px solid;
+  color: white;
+}
+
+.forum {
+  border-bottom: white 1px dotted;
+}
+
+.vote {
+  border: 1px white solid;
+  background: #98ade8;
+  height: 2px;
+}
+
+.box {
+  border: white 2px solid;
+  background: #acb8db;
+}
+
+.tr1 {
+  background-color: #cbd2e7;
+}
+
+.tr2 {
+  background-color: #acb8db;
+}
+
+.tr1 td, .tr2 td {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+img {
+  border: 0px;
+}
+
+.generator {
+	padding: 0px;
+	margin: 0px;
+}
+
+.generator_table {
+	padding: 5px;
+	height: 290px;
+	width: 100%;
+}
+
+.generator textarea {
+ 	height: 230px;
+ 	width: 100%;
+	font-family: Courier, monospace;
+}
+
+.generator td {
+  text-align: center;
+}
+
+.generate_button {
+  padding-right: 36px;
+  background-image: url(icon_go.png);
+  background-position: 95% 100%;
+  background-repeat: no-repeat;
+  height: 25px;
+}
+
+.save_button {
+  padding-right: 36px;
+  background-image: url(icon_download.png);
+  background-position: 95% 100%;
+  background-repeat: no-repeat;
+  height: 25px;
+}
+
+.lightbox {
+  position: absolute;
+  width: 50%;
+  height: 295px;
+  background-image: url(blue_80_transp.png);
+  display: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.link {
+  cursor: pointer;
+}

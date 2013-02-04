@@ -1,0 +1,24 @@
+5
+dave laura owen vick amr
+dave 200 3 laura owen vick
+owen 500 1 dave
+amr 150 2 vick owen
+laura 0 2 amr vick
+vick 0 0
+3
+liz steve dave
+liz 30 1 steve
+steve 55 2 liz dave
+dave 0 2 steve liz
+10
+samudra rahul arijit barnava agni moin-ul shoaib tyron jack iqbal
+samudra 200 0
+rahul 100 8 arijit barnava agni moin-ul shoaib tyron jack iqbal
+moin-ul 300 2 shoaib iqbal
+tyron 500 1 jack
+shoaib 100 1 samudra
+iqbal 200 4 rahul arijit shoaib agni
+arijit 0 0
+barnava 0 2 samudra rahul
+jack 100 2 tyron iqbal
+agni 10 2 samudra barnava

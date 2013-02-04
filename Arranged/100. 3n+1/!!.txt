@@ -1,0 +1,2 @@
+The DP solution, 3n_1.cpp did not get accepted.
+However, the brute force method did.

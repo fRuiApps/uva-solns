@@ -1,0 +1,12 @@
+void flood_fill(char field[][MAX],char ref[][MAX],int i,int j,int &m,int &n)
+{
+    ref[i][j]=1;
+    if((j+1)<n && field[i][j+1]=='1' && ref[i][j+1]==0) flood_fill(field,ref,i,j+1,m,n);
+    if((j-1)>=0 && field[i][j-1]=='1' && ref[i][j-1]==0) flood_fill(field,ref,i,j-1,m,n);
+    if((i-1)>=0 && field[i-1][j]=='1' && ref[i-1][j]==0) flood_fill(field,ref,i-1,j,m,n);
+    if((i+1)<m && field[i+1][j]=='1' && ref[i+1][j]==0) flood_fill(field,ref,i+1,j,m,n);
+    if((i-1)>=0 && (j-1)>=0 && field[i-1][j-1]=='1' && ref[i-1][j-1]==0) flood_fill(field,ref,i-1,j-1,m,n);
+    if((i+1)<m && (j+1)<n && field[i+1][j+1]=='1' && ref[i+1][j+1]==0) flood_fill(field,ref,i+1,j+1,m,n);
+    if((i-1)>=0 && (j+1)<n && field[i-1][j+1]=='1' && ref[i-1][j+1]==0) flood_fill(field,ref,i-1,j+1,m,n);
+    if((i+1)<m && (j-1)>=0 && field[i+1][j-1]=='1' && ref[i+1][j-1]==0) flood_fill(field,ref,i+1,j-1,m,n);
+}

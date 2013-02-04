@@ -1,0 +1,14 @@
+In the case n = 3, 20 cells contain segments of the circle.
+There are 12 cells completely contained in the circle.
+
+In the case n = 4, 28 cells contain segments of the circle.
+There are 24 cells completely contained in the circle.
+
+In the case n = 5, 36 cells contain segments of the circle.
+There are 52 cells completely contained in the circle.
+
+In the case n = 1, 4 cells contain segments of the circle.
+There are 0 cells completely contained in the circle.
+
+In the case n = 150, 1196 cells contain segments of the circle.
+There are 69660 cells completely contained in the circle.
